@@ -1,8 +1,8 @@
 var http = require('http');
 var mongo = require('mongoskin');
-var conf = require('./conf.js');
+var config = require('./config.js');
 
-conf.setupenv();
+config.setupenv();
 var db = mongo.db(process.env.MONGO_URI);
 
 http.createServer(function(req, res){
