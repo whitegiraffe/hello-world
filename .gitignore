@@ -14,4 +14,4 @@ results
 npm-debug.log
 
 node_modules
-conf.js
+config_local.js
