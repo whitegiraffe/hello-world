@@ -12,6 +12,7 @@ logs
 results
 
 npm-debug.log
+.project
 
 node_modules
 config_local.js
